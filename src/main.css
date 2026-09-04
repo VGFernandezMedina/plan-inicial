@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+/* 
+PARA TITULOS
+  font-family: "Playfair Display", serif; 
+PARA EL RESTO
+  font-family: "Montserrat", sans-serif; 
+*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  /* ===== Main Colors ===== */
+  --color-primary: #2c211b;
+  --color-secondary: #8b5e3c;
+  --color-accent: #c68b59;
+
+  /* ===== Backgrounds ===== */
+  --color-background: #f7f3ed;
+  --color-background-light: #fbf9f6;
+  --color-background-dark: #e8ded2;
+
+  /* ===== Text ===== */
+  --color-text: #2a2a2a;
+  --color-text-light: #6b625b;
+  --color-text-muted: #91877e;
+
+  /* ===== Strong Colors ===== */
+  --color-brown-light: #a97852;
+  --color-brown-dark: #4a3428;
+  --color-terracotta-light: #d9a477;
+  --color-terracotta-dark: #9e6240;
+
+  /* ===== Neutral ===== */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* ===== Hover ===== */
+  --color-primary-hover: #403027;
+  --color-secondary-hover: #70492f;
+  --color-accent-hover: #b87548;
+}

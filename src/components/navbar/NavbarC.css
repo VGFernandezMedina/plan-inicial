@@ -1,0 +1,86 @@
+.navbar {
+  /* background-color: rgba(0, 0, 0, 0.253); */
+  color: white !important;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 10;
+}
+
+.navbar-logo {
+  object-fit: contain;
+  height: 110px;
+  width: auto;
+}
+
+.nav-menu {
+  gap: 15px;
+}
+.nav-menu .nav-link {
+  color: white;
+
+  font-size: 17px;
+  font-weight: 400;
+}
+.nav-menu .nav-link:hover {
+  color: rgba(255, 255, 255, 0.81) !important;
+}
+.nav-menu .nav-link.active {
+  color: rgba(255, 255, 255, 0.81) !important;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+  box-shadow: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border-color: transparent;
+  box-shadow: none;
+}
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.offcanvas {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+.offcanvas-title {
+  font-family: "Playfair Display", serif;
+}
+.offcanvas .nav-menu {
+  gap: 10px;
+}
+.offcanvas .nav-link {
+  color: var(--color-white);
+  font-size: 18px;
+}
+.offcanvas .btn-close {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    height: 100px;
+  }
+  .navbar-logo {
+    height: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar-logo {
+    height: 70px;
+  }
+  .navbar .container {
+    padding: 0 20px;
+  }
+}
