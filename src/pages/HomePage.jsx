@@ -1,14 +1,14 @@
 import About from "../components/about/About";
 import Home from "../components/Home/Home";
 import Locations from "../components/locations/Locations";
-import Services from "../components/services/Services";
+import Menu from "../components/menu/Menu";
 import "./HomePage.css";
 
 const HomePage = () => {
   return (
     <>
       <Home />
-      <Services />
+      <Menu />
       <About />
       <Locations />
     </>

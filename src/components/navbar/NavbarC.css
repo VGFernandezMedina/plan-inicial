@@ -1,7 +1,5 @@
 .navbar {
   /* background-color: rgba(0, 0, 0, 0.253); */
-  color: white !important;
-
   position: absolute;
   top: 0;
   left: 0;
@@ -16,12 +14,8 @@
   width: auto;
 }
 
-.nav-menu {
-  gap: 15px;
-}
 .nav-menu .nav-link {
   color: white;
-
   font-size: 17px;
   font-weight: 400;
 }
@@ -30,6 +24,11 @@
 }
 .nav-menu .nav-link.active {
   color: rgba(255, 255, 255, 0.81) !important;
+}
+.nav-menu .nav-link:not(:last-child)::after {
+  content: "|";
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-toggler {
@@ -53,7 +52,7 @@
   font-family: "Playfair Display", serif;
 }
 .offcanvas .nav-menu {
-  gap: 10px;
+  gap: 5px;
 }
 .offcanvas .nav-link {
   color: var(--color-white);
@@ -70,6 +69,9 @@
   }
   .navbar-logo {
     height: 90px;
+  }
+  .nav-menu .nav-link::after {
+    display: none;
   }
 }
 

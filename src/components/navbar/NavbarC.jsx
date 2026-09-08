@@ -31,11 +31,11 @@ export const NavbarC = () => {
               <Nav.Link href="#home" className="nav-link">
                 Inicio
               </Nav.Link>
-              <Nav.Link href="#services" className="nav-link">
-                Servicios
+              <Nav.Link href="#menu" className="nav-link">
+                Menú
               </Nav.Link>
               <Nav.Link href="#about" className="nav-link">
-                Sobre Nosotros
+                Nosotros
               </Nav.Link>
               <Nav.Link href="#contact" className="nav-link">
                 Contacto
