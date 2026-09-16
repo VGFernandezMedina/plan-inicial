@@ -14,10 +14,9 @@ const Home = () => {
           <div className="home-title">
             <h1>Restaurante Valdivia</h1>
             <p className="home-description">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-              amet, necessitatibus molestiae saepe vel facilis voluptatum ea,
-              excepturi ratione quidem nam asperiores molestias itaque eveniet
-              harum eaque, quasi aperiam nisi!
+              Sabores auténticos, ingredientes de calidad y un ambiente pensado
+              para disfrutar. Vení a compartir momentos especiales alrededor de
+              una buena mesa.
             </p>
             <Button>Ver menú</Button>
           </div>

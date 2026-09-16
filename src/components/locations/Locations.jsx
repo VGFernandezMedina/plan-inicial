@@ -2,14 +2,14 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Locations.css";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Locations = () => {
   return (
     <Container fluid as="section" className="location">
       <Row className="w-100 g-0">
         <Col lg="6" className="location-text">
-          <h1>Visita nuestro Restaurante</h1>
+          <h2>Visita nuestro Restaurante</h2>
           <p>Acercate a disfrutar de nuestros platos y nuestro ambiente.</p>
           <div className="location-description">
             <div className="location-icons">
@@ -40,7 +40,7 @@ const Locations = () => {
                 rel="noopener noreferrer"
                 href="#"
               >
-                <FaFacebook size={20} />
+                <FaFacebookF size={20} />
                 <span className="m-0">Facebook</span>
               </a>
               <a

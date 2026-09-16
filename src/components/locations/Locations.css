@@ -16,7 +16,7 @@
   padding: 60px 100px;
 }
 
-.location-text h1 {
+.location-text h2 {
   font-family: "Playfair Display", serif;
   font-size: clamp(32px, 7vw, 64px);
   font-weight: 600;
@@ -76,7 +76,7 @@
     padding: 50px 60px;
   }
 
-  .location-text h1 {
+  .location-text h2 {
     letter-spacing: 3px;
   }
 
@@ -95,7 +95,7 @@
     text-align: center;
     align-items: center;
   }
-  .location-text h1 {
+  .location-text h2 {
     font-size: 42px;
     letter-spacing: 2px;
     padding-bottom: 15px;
@@ -136,7 +136,7 @@
   .location-text {
     padding: 30px 10px;
   }
-  .location-text h1 {
+  .location-text h2 {
     font-size: 36px;
     letter-spacing: 1px;
   }

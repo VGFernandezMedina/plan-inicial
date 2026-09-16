@@ -20,10 +20,10 @@
   font-weight: 400;
 }
 .nav-menu .nav-link:hover {
-  color: rgba(255, 255, 255, 0.81) !important;
+  color: var(--color-accent) !important;
 }
 .nav-menu .nav-link.active {
-  color: rgba(255, 255, 255, 0.81) !important;
+  color: var(--color-accent) !important;
 }
 .nav-menu .nav-link:not(:last-child)::after {
   content: "|";
