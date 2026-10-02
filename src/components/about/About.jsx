@@ -4,29 +4,20 @@ import "./About.css";
 
 import { FaWhatsapp } from "react-icons/fa";
 
-import about1 from "/about1.jpg";
-import about2 from "/about2.jpg";
+import about3 from "/about3.jpg";
 
 const About = () => {
   return (
-    <Container fluid className="about">
+    <Container id="about" fluid className="about p-0">
       <Row className="w-100 g-0">
-        <Col className="col-img-about">
-          <img
-            src={about1}
-            alt="Comida en Restaurante Valdivia"
-            className="mb-5"
-          />
-
-          <img
-            src={about2}
-            alt="Plato de Restaurante Valdivia"
-            className="mt-5"
-          />
+        <Col md="6" className="col-img-about">
+          <img src={about3} alt="Plato de Restaurante Valdivia" className="" />
         </Col>
 
-        <Col className="col-text-about">
+        <Col md="6" className="col-text-about">
           <div>
+            <span>NUESTRA HISTORIA</span>
+
             <h2>Sobre nosotros</h2>
 
             <p>
@@ -34,7 +25,6 @@ const About = () => {
               que un plato. Es una oportunidad para compartir, disfrutar y crear
               momentos especiales.
             </p>
-
             <p>
               Nuestra propuesta combina ingredientes seleccionados, sabores
               auténticos y un ambiente cálido, pensado para que cada visita se

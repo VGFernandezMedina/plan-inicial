@@ -4,7 +4,6 @@
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url("/interior2.jpg") center / cover no-repeat;
-  /* background-image: url("/restaurant-home.jpg"); */
 
   display: flex;
   align-items: center;

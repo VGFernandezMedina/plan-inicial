@@ -6,7 +6,7 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Locations = () => {
   return (
-    <Container fluid as="section" className="location">
+    <Container id="contact" fluid as="section" className="location">
       <Row className="w-100 g-0">
         <Col lg="6" className="location-text">
           <h2>Visita nuestro Restaurante</h2>
@@ -29,7 +29,6 @@ const Locations = () => {
                 className="location-icons"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="#"
               >
                 <FaInstagram size={20} />
                 <span className="m-0">Instagram</span>
@@ -38,7 +37,6 @@ const Locations = () => {
                 className="location-icons"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="#"
               >
                 <FaFacebookF size={20} />
                 <span className="m-0">Facebook</span>
@@ -47,7 +45,6 @@ const Locations = () => {
                 className="location-icons"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="#"
               >
                 <FaWhatsapp size={20} />
                 <span className="m-0">WhatsApp</span>

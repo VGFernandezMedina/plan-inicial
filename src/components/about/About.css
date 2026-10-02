@@ -1,37 +1,47 @@
 .about {
-  min-height: 100dvh;
-  background-color: #1d2527;
+  min-height: 80dvh;
+  background-color: var(--color-brown-dark);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  position: relative;
 }
 
 .col-img-about {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
 }
 
 .col-img-about img {
-  height: 450px;
-  width: auto;
+  height: 400px;
+  width: 90%;
+  max-width: 500px;
   object-fit: cover;
+  object-position: center;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 .col-text-about {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px;
+  padding: 30px;
+}
+
+.col-text-about span {
+  color: var(--color-accent);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 5px;
 }
 
 .col-text-about > div {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .col-text-about h2 {
@@ -42,7 +52,7 @@
 }
 
 .col-text-about p {
-  max-width: 650px;
+  max-width: 550px;
   margin: 0;
 }
 
