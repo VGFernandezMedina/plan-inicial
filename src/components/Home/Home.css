@@ -1,0 +1,118 @@
+.home {
+  min-height: 100dvh;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("/interior2.webp") center / cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-align: center;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-welcome {
+  color: var(--color-accent);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 10px;
+}
+.home-icon {
+  font-size: 26px;
+}
+
+.home-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.home-div h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(42px, 7vw, 80px);
+  letter-spacing: 10px;
+}
+.home-description {
+  max-width: 700px;
+}
+
+.home-div button {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border: 2px solid var(--color-accent);
+  align-self: center;
+  padding: 8px 40px;
+  transition: all 0.2s ease;
+}
+.home-div button:hover {
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+.home-div button:active {
+  background-color: var(--color-terracotta-dark) !important;
+  border-color: var(--color-terracotta-dark) !important;
+}
+.home-div button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(198, 139, 89, 0.35);
+}
+.home-div button:disabled {
+  background-color: var(--color-text-muted);
+  border-color: var(--color-text-muted);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .home-welcome {
+    font-size: 16px;
+    letter-spacing: 7px;
+  }
+  .home-icon {
+    font-size: 24px;
+  }
+  .home-div h1 {
+    font-size: 60px;
+    letter-spacing: 7px;
+  }
+  .home-description {
+    max-width: 600px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 0 20px;
+  }
+  .home-welcome {
+    font-size: 14px;
+    letter-spacing: 4px;
+  }
+  .home-icon {
+    font-size: 22px;
+  }
+  .home-title {
+    gap: 15px;
+  }
+  .home-div h1 {
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin: 5px 0;
+  }
+  .home-description {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0;
+  }
+  .home-div button {
+    padding: 10px 30px;
+  }
+}
