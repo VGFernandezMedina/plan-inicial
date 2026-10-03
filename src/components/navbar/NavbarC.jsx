@@ -49,7 +49,7 @@ export const NavbarC = () => {
           onClick={() => handleNavClick("home")}
         >
           <img
-            src="/restaurant-logo.png"
+            src="/restaurant-logo.webp"
             alt="Valdivia Restaurante & Café"
             className="navbar-logo"
           />

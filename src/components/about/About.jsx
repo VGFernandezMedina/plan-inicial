@@ -4,7 +4,7 @@ import "./About.css";
 
 import { FaWhatsapp } from "react-icons/fa";
 
-import about3 from "/about3.jpg";
+import about3 from "/about3.webp";
 
 const About = () => {
   return (

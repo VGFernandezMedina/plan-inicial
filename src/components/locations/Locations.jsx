@@ -26,6 +26,7 @@ const Locations = () => {
             </div>
             <div className="location-social">
               <a
+                href="#"
                 className="location-icons"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -34,6 +35,7 @@ const Locations = () => {
                 <span className="m-0">Instagram</span>
               </a>
               <a
+                href="#"
                 className="location-icons"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -42,6 +44,7 @@ const Locations = () => {
                 <span className="m-0">Facebook</span>
               </a>
               <a
+                href="#"
                 className="location-icons"
                 target="_blank"
                 rel="noopener noreferrer"

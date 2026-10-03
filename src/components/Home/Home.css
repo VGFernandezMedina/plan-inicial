@@ -3,7 +3,7 @@
 
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("/interior2.jpg") center / cover no-repeat;
+    url("/interior2.webp") center / cover no-repeat;
 
   display: flex;
   align-items: center;

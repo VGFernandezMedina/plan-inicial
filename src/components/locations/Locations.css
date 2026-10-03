@@ -6,7 +6,7 @@
   justify-content: center;
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/exterior1.jpg") center / cover no-repeat;
+    url("/exterior1.webp") center / cover no-repeat;
 }
 
 .location-text {

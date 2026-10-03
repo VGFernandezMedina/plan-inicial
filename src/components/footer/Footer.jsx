@@ -15,7 +15,7 @@ const Footer = () => {
     <Container fluid as="footer" className="footer">
       <Row className="w-100 footer-content py-4">
         <Col xs={12} md={4} className="footer-logo mb-4 mb-md-0">
-          <img src="/restaurant-logo.png" alt="Valdivia Restaurante & Café" />
+          <img src="/restaurant-logo.webp" alt="Valdivia Restaurante & Café" />
           <div className="footer-description">
             <p>
               Sabores que reúnen, momentos que perduran. Una experiencia

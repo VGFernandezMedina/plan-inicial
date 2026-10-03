@@ -3,6 +3,17 @@ import "./Home.css";
 import { Button, Container } from "react-bootstrap";
 
 const Home = () => {
+  const scrollToAbout = () => {
+    const element = document.getElementById("about");
+
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <Container id="home" as="section" fluid className="home">
       <div className="home-div">
@@ -17,7 +28,7 @@ const Home = () => {
             para disfrutar. Vení a compartir momentos especiales alrededor de
             una buena mesa.
           </p>
-          <Button>Ver menú</Button>
+          <Button onClick={scrollToAbout}>Ver menú</Button>
         </div>
       </div>
     </Container>
