@@ -1,0 +1,151 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 10;
+}
+
+.navbar-logo {
+  object-fit: contain;
+  height: 110px;
+  width: auto;
+}
+
+.nav-menu .nav-link {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-menu .nav-link:hover {
+  color: var(--color-accent) !important;
+}
+.nav-menu .nav-link.active {
+  color: var(--color-accent) !important;
+}
+.nav-menu .nav-link:not(:last-child)::after {
+  content: "|";
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler {
+  border-color: transparent;
+  box-shadow: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border-color: transparent;
+  box-shadow: none;
+}
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.offcanvas {
+  color: var(--color-white);
+}
+.offcanvas-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.323);
+}
+.offcanvas-title {
+  font-family: "Playfair Display", serif;
+}
+.offcanvas .nav-menu {
+  gap: 5px;
+}
+.offcanvas .nav-link {
+  color: var(--color-white);
+  font-size: 18px;
+}
+
+.offcanvas-close {
+  background: transparent;
+  border: none;
+  color: var(--color-white);
+  font-size: 28px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.offcanvas-close:hover {
+  color: var(--color-accent);
+}
+.offcanvas-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.offcanvas-info {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    height: 100px;
+  }
+  .navbar-logo {
+    height: 90px;
+  }
+  .nav-menu .nav-link::after {
+    display: none;
+  }
+
+  .offcanvas-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.323);
+  }
+  .offcanvas-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .offcanvas-info-item svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+    font-size: 19px;
+  }
+  .offcanvas {
+    background-color: #403027d7;
+    backdrop-filter: blur(10px);
+  }
+}
+
+@media (min-width: 991px) {
+  .icon-navbar {
+    display: none;
+  }
+  .nav-menu .nav-link {
+    gap: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar-logo {
+    height: 70px;
+  }
+  .navbar .container {
+    padding: 0 20px;
+  }
+  .offcanvas .nav-menu {
+    gap: 3px;
+  }
+  .offcanvas .nav-link {
+    font-size: 16px;
+  }
+}
