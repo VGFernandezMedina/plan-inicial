@@ -1,5 +1,5 @@
 .menu {
-  min-height: 100dvh;
+  min-height: 100svh;
   padding: 100px 0;
   background-color: var(--color-primary);
   color: var(--color-white);
