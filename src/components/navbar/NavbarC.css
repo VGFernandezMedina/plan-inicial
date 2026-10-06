@@ -81,9 +81,12 @@
   outline: none;
   box-shadow: none;
 }
-
 .offcanvas-info {
   display: none;
+}
+
+.icon-navbar {
+  color: var(--color-terracotta-light);
 }
 
 @media (max-width: 991px) {
