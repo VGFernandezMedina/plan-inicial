@@ -80,7 +80,7 @@ export const NavbarC = () => {
               onClick={handleClose}
               aria-label="Cerrar menú"
             >
-              <IoArrowForward />
+              <IoArrowForward className="icon-navbar" />
             </button>
           </Offcanvas.Header>
 
@@ -126,12 +126,12 @@ export const NavbarC = () => {
 
             <div className="offcanvas-info">
               <div className="offcanvas-info-item">
-                <IoLocationOutline />
+                <IoLocationOutline className="icon-navbar" />
                 <span>Av. Siempre Viva 123, Tucumán</span>
               </div>
 
               <div className="offcanvas-info-item">
-                <MdOutlineWatchLater />
+                <MdOutlineWatchLater className="icon-navbar" />
                 <span>
                   Lun. a Vie. 12:00 - 00:00
                   <br />
